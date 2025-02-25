@@ -1,0 +1,48 @@
+type: collection.insomnia.rest/5.0
+name: My Collection
+meta:
+  id: wrk_c5fbaad61b6a466e848bdf4ded596d2c
+  created: 1740476980538
+  modified: 1740476980538
+collection:
+  - url: https://httpbin.org/post
+    name: New Request
+    meta:
+      id: req_dbf6a8d739594bd89614a6b31dd5ed22
+      created: 1740476982934
+      modified: 1740476999666
+      isPrivate: false
+      sortKey: -1740476982934
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "foo": "bar"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.0-beta.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_0dea09c55be7ded16595f8a17c74815a07c0ddc4
+    created: 1740476980541
+    modified: 1740476980541
+environments:
+  name: Base Environment
+  meta:
+    id: env_0dea09c55be7ded16595f8a17c74815a07c0ddc4
+    created: 1740476980540
+    modified: 1740476980540
+    isPrivate: false
