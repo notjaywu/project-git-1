@@ -1,9 +1,9 @@
 type: collection.insomnia.rest/5.0
-name: My Collection
+name: j
 meta:
   id: wrk_c5fbaad61b6a466e848bdf4ded596d2c
   created: 1740476980538
-  modified: 1740476980538
+  modified: 1741762028441
 collection:
   - url: https://httpbin.org/post
     name: New Request
