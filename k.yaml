@@ -5,11 +5,11 @@ meta:
   created: 1741762057849
   modified: 1741762057849
 collection:
-  - name: New Request
+  - name: "1"
     meta:
       id: req_d2a2cfc5b7b749188b587f6d07631ccf
       created: 1741762135370
-      modified: 1741762135370
+      modified: 1741762244959
       isPrivate: false
       sortKey: -1741762135370
     method: GET
@@ -17,7 +17,7 @@ collection:
       - name: User-Agent
         value: insomnia/11.0.0-beta.4
     settings:
-      renderRequestBody: true
+      renderRequestBody: false
       encodeUrl: true
       followRedirects: global
       cookies:
