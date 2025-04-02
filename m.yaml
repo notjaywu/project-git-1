@@ -5,17 +5,28 @@ meta:
   created: 1741762123148
   modified: 1741762123148
 collection:
-  - name: New Request
+  - url: https://httpbin.org/get
+    name: New Request
     meta:
       id: req_1af0a6492e7944df8dd2da1e29122fcd
       created: 1741762125843
-      modified: 1741762125843
+      modified: 1743571437542
       isPrivate: false
       sortKey: -1741762125843
     method: GET
+    parameters:
+      - id: pair_ee6c5ae5282746c88de6b1eae21f1d8a
+        disabled: true
     headers:
       - name: User-Agent
         value: insomnia/11.0.0-beta.4
+    scripts:
+      afterResponse: |+
+        
+        insomnia.test('Check if status is 200', () => {
+            insomnia.expect(insomnia.response.code).to.eql(200);
+        });
+
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -29,11 +40,11 @@ cookieJar:
   meta:
     id: jar_95fd8fe0a5d92954af4fe6efb675aac218ae5ce8
     created: 1741762123151
-    modified: 1741762123151
+    modified: 1743571440223
 environments:
   name: Base Environment
   meta:
     id: env_95fd8fe0a5d92954af4fe6efb675aac218ae5ce8
     created: 1741762123151
-    modified: 1741762123151
+    modified: 1743571440223
     isPrivate: false
