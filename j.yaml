@@ -4,6 +4,7 @@ meta:
   id: wrk_c5fbaad61b6a466e848bdf4ded596d2c
   created: 1740476980538
   modified: 1741762028441
+  description: ""
 collection:
   - url: https://httpbin.org/post
     name: New Request
@@ -12,6 +13,7 @@ collection:
       created: 1740476982934
       modified: 1740476999666
       isPrivate: false
+      description: ""
       sortKey: -1740476982934
     method: POST
     body:
@@ -25,6 +27,9 @@ collection:
         value: application/json
       - name: User-Agent
         value: insomnia/11.0.0-beta.1
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true

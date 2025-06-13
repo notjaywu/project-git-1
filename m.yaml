@@ -4,6 +4,7 @@ meta:
   id: wrk_9a58b067573f4549974ea1e5d0e307a0
   created: 1741762123148
   modified: 1741762123148
+  description: ""
 collection:
   - url: https://httpbin.org/get
     name: New Request
@@ -12,15 +13,20 @@ collection:
       created: 1741762125843
       modified: 1743571437542
       isPrivate: false
+      description: ""
       sortKey: -1741762125843
     method: GET
     parameters:
       - id: pair_ee6c5ae5282746c88de6b1eae21f1d8a
+        name: ""
+        value: ""
+        description: ""
         disabled: true
     headers:
       - name: User-Agent
         value: insomnia/11.0.0-beta.4
     scripts:
+      preRequest: ""
       afterResponse: |+
         
         insomnia.test('Check if status is 200', () => {
@@ -35,12 +41,14 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - name: New Request
+  - url: ""
+    name: New Request
     meta:
       id: req_893b7a042f8647ad9376cc77fa55e906
       created: 1744707391986
       modified: 1744707391986
       isPrivate: false
+      description: ""
       sortKey: -1744707391986
     method: GET
     headers:
