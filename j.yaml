@@ -27,9 +27,6 @@ collection:
         value: application/json
       - name: User-Agent
         value: insomnia/11.0.0-beta.1
-    scripts:
-      preRequest: ""
-      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
